@@ -120,4 +120,6 @@ const resetFields = () => {
   mailValid.style.display = 'none';
   passwordValid.style.display = 'none';
   confirmPassValid.style.display = 'none';
+
+  submittedOnce = false;
 }
